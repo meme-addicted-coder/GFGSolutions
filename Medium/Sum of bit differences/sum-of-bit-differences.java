@@ -60,7 +60,7 @@ public class Main {
 }*/
 
 
-//Time Complexity: O(1)
+//Time Complexity: O(n)
 class Solution {
     long sumBitDifferences(int[] arr, int n) {
          long ans = 0; 
