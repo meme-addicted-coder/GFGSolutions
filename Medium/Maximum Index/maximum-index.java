@@ -24,27 +24,13 @@ class Main {
 // } Driver Code Ends
 
 
+
 class Solution{
     
     // A[]: input array
     // N: size of array
     // Function to find the maximum index difference.
     static int maxIndexDiff(int a[], int n) { 
-        /*int diff=0;
-        int maxdif=0;
-        // Your code here
-        int i=0;
-        int j=n-1;
-        while(i<j){
-           while(i<=j && a[i]<=a[j]){
-            diff=j-i;
-            maxdif=Math.max(diff,maxdif);
-            j--;
-            
-        } 
-        }
-        
-      return maxdif; */ 
      int diff=0;
      int i=0;
      int j=n-1;
